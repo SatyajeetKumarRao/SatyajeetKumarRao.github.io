@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e38decbe.css",
-    "main.js": "/static/js/main.f7114600.js",
+    "main.js": "/static/js/main.ae5b7639.js",
     "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -12,7 +12,7 @@
     "static/media/project-img3.png": "/static/media/project-img3.d7445985ce7ab6231676.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/chakra.png": "/static/media/chakra.5531083a8b1fa844fb59.png",
-    "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/header-img.png": "/static/media/header-img.ff42bc6629c79e214201.png",
     "static/media/react.png": "/static/media/react.e63011e6052873e615c1.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -26,27 +26,27 @@
     "static/media/mysql.png": "/static/media/mysql.635bb717131badcf86d4.png",
     "static/media/vscode.png": "/static/media/vscode.efd7e6caeb387175fdf4.png",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "static/media/github.png": "/static/media/github.6401a430a0d5ab8d613f.png",
     "static/media/redux.png": "/static/media/redux.799bf4ce1241a5ec8e49.png",
     "static/media/css.png": "/static/media/css.21df9a0a469c586bd271.png",
     "static/media/javascript.png": "/static/media/javascript.e23a01765cd3b5186981.png",
+    "static/media/github.png": "/static/media/github.e02c93c9d478538285d4.png",
     "static/media/vercel.png": "/static/media/vercel.a8cb95ebb0196886a235.png",
     "static/media/express.png": "/static/media/express.8f1b428420f44bd8bb31.png",
     "static/media/render.png": "/static/media/render.4282855ba4039c081159.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/npm.png": "/static/media/npm.72cc7167c622a08e6d06.png",
-    "static/media/logo.webp": "/static/media/logo.c0a98307167911bd122f.webp",
+    "static/media/logo.webp": "/static/media/logo.38877fee757c52692159.webp",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.23783ea166191ec5067ce1d181683dee.svg",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "main.e38decbe.css.map": "/static/css/main.e38decbe.css.map",
-    "main.f7114600.js.map": "/static/js/main.f7114600.js.map",
+    "main.ae5b7639.js.map": "/static/js/main.ae5b7639.js.map",
     "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e38decbe.css",
-    "static/js/main.f7114600.js"
+    "static/js/main.ae5b7639.js"
   ]
 }
