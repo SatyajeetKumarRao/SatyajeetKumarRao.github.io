@@ -9,12 +9,12 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center ">
           <MailchimpForm />
-          <Col size={12} sm={6}>
+          <Col size={12} sm={6} className="text-sm-start text-center py-2">
             <img src={logo} alt="Logo" />
           </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
+          <Col size={12} sm={6} className="text-center text-sm-end py-2">
             <div className="social-icon">
               <a
                 href="https://www.linkedin.com/in/satyajeet-rao/"
