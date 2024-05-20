@@ -43,13 +43,14 @@ export const Contact = () => {
       .then((response) => response.json())
       .then((responseData) => {
         console.log(responseData);
-        toast.success("Message sent successfully ", {
+
+        toast.success("Message sent successfully", {
           position: "top-right",
           autoClose: 5000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
-          draggable: true,
+          draggable: false,
           progress: undefined,
           theme: "dark",
           transition: Bounce,
@@ -66,7 +67,7 @@ export const Contact = () => {
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
-          draggable: true,
+          draggable: false,
           progress: undefined,
           theme: "dark",
           transition: Bounce,
@@ -78,19 +79,6 @@ export const Contact = () => {
 
   return (
     <section className="contact" id="connect">
-      <ToastContainer
-        position="top-right"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-        transition={Bounce}
-      />
       <ToastContainer />
 
       <Container>

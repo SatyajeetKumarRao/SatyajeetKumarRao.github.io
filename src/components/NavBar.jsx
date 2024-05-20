@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.webp";
 import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon3 from "../assets/img/nav-icon3.svg";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -111,10 +112,14 @@ export const NavBar = () => {
                 </a>
                 {/* <a href="#">
                   <img src={navIcon2} alt="" />
-                </a>
-                <a href="#">
-                  <img src={navIcon3} alt="" />
                 </a> */}
+                <a
+                  href="https://github.com/SatyajeetKumarRao"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={navIcon3} alt="" />
+                </a>
               </div>
               {/* <HashLink to="#connect"> */}
 
