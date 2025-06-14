@@ -106,6 +106,10 @@ nav.navbar {
   transition: 0.32s ease-in-out;
   /* background-color: #00000086; */
 }
+nav.navbar.expanded {
+  background-color: #121212;
+  /* background-color: #00000086; */
+}
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.webp";
 import navIcon1 from "../assets/img/nav-icon1.svg";
@@ -9,6 +9,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+  const navbarRef = useRef(null);
 
   useEffect(() => {
     const onScroll = () => {
@@ -24,15 +26,29 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (expanded && navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setExpanded(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [expanded]);
+
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+    setExpanded(false);
   };
 
   return (
     <Router>
-      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+      <Navbar ref={navbarRef} expand="lg" className={`${scrolled ? "scrolled" : ""} ${expanded ? "expanded" : ""}`} expanded={expanded} onToggle={setExpanded}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/" onClick={() => setExpanded(false)}>
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
