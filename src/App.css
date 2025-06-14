@@ -478,6 +478,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
+
+  @media screen and (max-width: 767px) {
+    font-size: 13px;
+  }
 }
 .project .nav.nav-pills .nav-link::before {
   content: "";
