@@ -112,8 +112,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                {/* Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. */}
+                Here are the technologies and tools I use to build responsive, scalable, and efficient full-stack applications.
               </p>
 
               <Container>

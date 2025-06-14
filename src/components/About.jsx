@@ -21,16 +21,11 @@ export const About = () => {
                   <Col size={12} md={6}>
                     <h3>Hello! I am Satyajeet Kumar Rao</h3>
                     <p>
-                      A Full-stack web development student from Masai School.
-                      With an experience in implementing MERN stack, I am
-                      looking forward to work as a developer and create
-                      meaningful products. My experience at Masai School was
-                      extremely enriching. I implemented HTML, CSS, Javascript,
-                      Mongodb, Node.js, Express in my projects. In addition, I
-                      sharpened my creativity, problem-solving and collaboration
-                      skills. Now, I look forward to utilizing my skills in
-                      building user-centric products that challenge my
-                      abilities.
+                      I’m a Full-Stack Web Developer currently working at Procuzy, India’s first AI-enabled SaaS platform for mid-sized manufacturers. Over the past year (including a six-month internship), I’ve contributed to the development of scalable, end-to-end modules across procurement, inventory, production, and vendor workflows—helping streamline complex supply chain processes for B2B clients.
+                      <br /><br />
+                      I specialize in the MERN stack (MongoDB, Express.js, React, Node.js) and apply a strong focus on building secure, user-friendly, and performance-driven web applications. I completed my full-stack training at Masai School, where I gained hands-on experience with real-world projects and developed skills in collaboration, problem-solving, and product thinking.
+                      <br /><br />
+                      I’m passionate about delivering clean, efficient code and building meaningful digital products that simplify operational challenges and create lasting impact.
                     </p>
                   </Col>
                 </Row>
